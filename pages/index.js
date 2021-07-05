@@ -1,9 +1,14 @@
 import styles from '../styles/Home.module.css'
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Home() {
     return (
-        <div>
+        <>
+            <Head>
+                <title>Temp List | Home</title>
+                <meta name="keywords" content="temps"/>
+            </Head>
             <h1 className={styles.title}>Home Page</h1>
             <h4 className={styles.text}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aut corporis cumque cupiditate,
@@ -18,6 +23,6 @@ export default function Home() {
             <Link href="/temps">
                 <a className={styles.btn}>See Temp Listing</a>
             </Link>
-        </div>
+        </>
     )
 }
