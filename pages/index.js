@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import styles from '../styles/Home.module.css'
 import Footer from "./components/Footer";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -11,6 +12,9 @@ export default function Home() {
                 distinctio eos esse expedita, explicabo incidunt ipsum necessitatibus optio pariatur quaerat repudiandae
                 sunt vel velit? Dolores!
             </h5>
+            <Link href="/temps">
+                <a>See Temp Listing</a>
+            </Link>
             <Footer/>
         </div>
     )
