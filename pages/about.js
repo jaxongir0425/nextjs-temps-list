@@ -1,6 +1,12 @@
+import Head from "next/head";
+
 const About = () => {
     return (
         <>
+            <Head>
+                <title>Temp List | Home</title>
+                <meta name="keywords" content="temps"/>
+            </Head>
             <h1>About Page</h1>
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
