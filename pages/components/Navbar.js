@@ -1,7 +1,14 @@
 const Navbar = () => {
-    return ( 
+    return (
         <>
-            <h1>Navbar</h1>
+            <nav>
+                <div className="logo">
+                    <h1>Temps List</h1>
+                </div>
+                <a>Home</a>
+                <a>About</a>
+                <a>Temp Listing</a>
+            </nav>
         </>
     );
 }

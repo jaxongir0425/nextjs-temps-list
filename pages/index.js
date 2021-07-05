@@ -1,11 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Navbar from "./components/Navbar";
 import styles from '../styles/Home.module.css'
+import Footer from "./components/Footer";
 
 export default function Home() {
-  return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
-  )
+    return (
+        <div>
+            <Navbar/>
+            <h5>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aut corporis cumque cupiditate,
+                distinctio eos esse expedita, explicabo incidunt ipsum necessitatibus optio pariatur quaerat repudiandae
+                sunt vel velit? Dolores!
+            </h5>
+            <Footer/>
+        </div>
+    )
 }

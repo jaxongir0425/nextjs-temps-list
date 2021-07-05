@@ -1,5 +1,5 @@
 const Temps = () => {
-    return ( 
+    return (
         <>
             <h1>All Temps</h1>
         </>
